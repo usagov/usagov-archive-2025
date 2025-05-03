@@ -178,12 +178,6 @@
   <loc>https://www.usa.gov/covid-tests-vaccinations</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/covid-funeral-assistance</loc>
- </url>
- <url>
-  <loc>https://www.usa.gov/covid-international-travel</loc>
- </url>
- <url>
   <loc>https://www.usa.gov/auctions-and-sales</loc>
  </url>
  <url>
@@ -2008,12 +2002,6 @@
   <loc>https://www.usa.gov/es/covid-pruebas-vacunas</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/es/covid-ayuda-gastos-funebres</loc>
- </url>
- <url>
-  <loc>https://www.usa.gov/es/covid-viajes-internacionales</loc>
- </url>
- <url>
   <loc>https://www.usa.gov/home-repair-programs-special-groups</loc>
  </url>
  <url>
@@ -2420,6 +2408,12 @@
  </url>
  <url>
   <loc>https://www.usa.gov/content</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/california-wildfires</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/es/california-incendios-forestales</loc>
  </url>
  <url>
   <loc>https://www.usa.gov/benefit-finder/death</loc>
