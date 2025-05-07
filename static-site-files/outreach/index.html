@@ -151,8 +151,8 @@
 							<span class="icon-lock">
 								<svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64"
 									class="usa-banner__lock-image"
-									aria-labelledby="banner-lock-description-default" focusable="false">
-									<title id="banner-lock-title-default">Lock</title>
+									aria-labelledby="banner-lock-description-default">
+									<title>Lock</title>
 									<desc id="banner-lock-description-default">Locked padlock icon</desc>
 									<path fill="#000000" fill-rule="evenodd"
 									d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
@@ -168,7 +168,8 @@
 </section>
 <script>
 	document.getElementById('gov-banner-default').setAttribute('hidden', 'until-found');
-</script><div id="block-usagov-mobilemenublock" class="settings-tray-editable block block-usagov-menus block-usagov-mobile-menu-block" data-drupal-settingstray="editable">
+</script>
+<div id="block-usagov-mobilemenublock" class="settings-tray-editable block block-usagov-menus block-usagov-mobile-menu-block" data-drupal-settingstray="editable">
   
     
       
@@ -194,7 +195,7 @@
       </div>
       <div class="usa-nav__secondary">
         <!-- Search Bar -->
-        <form id="usagov_all_gov-mobile" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="search_form" accept-charset="UTF-8" role="search">
+        <form id="usagov_all_gov-mobile" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="usagov_all_gov-mobile" accept-charset="UTF-8" role="search">
   <label id="top-srch-mobile-menu" class="usa-sr-only" for="search-field-small-mobile-menu">Search</label>
   <input id="affiliate-mobile-menu" name="affiliate" type="hidden" value="usagov_all_gov">
   <input
@@ -211,7 +212,7 @@
   </button>
 </form>
 
-        <span class="usa-nav__secondary-links">
+        <div class="usa-nav__secondary-links">
             <div>
     <div id="block-usagov-topnavmobile-2" class="settings-tray-editable block block-block-content block-block-contentba151291-a004-469d-9192-deb7730e19df" data-drupal-settingstray="editable">
   
@@ -226,7 +227,7 @@
 
   </div>
 
-        </span>
+        </div>
       </div>
     </div>
 
@@ -263,9 +264,6 @@
                       </li>
                                                                                                                                     <li class="navigation__item active">
                         <a href="#">USAGov Outreach</a>
-                      </li>
-                                                                                                                                    <li class="navigation__item sibling">
-                        <a href="/vote-gov">Vote.gov</a>
                       </li>
                                                                                                                                     <li class="navigation__item sibling">
                         <a href="/search-gov">Search.gov</a>
@@ -310,12 +308,14 @@
 	</div>
 
 	<div class="navbar-right">
-                
+    
+            
+    	
                           
 			<a href="/es/promocion-programa-usagov" class="usa-button language-link" hreflang="es" role="button">Español</a>
 		      		<button class="usa-menu-btn">Menu</button>
 		<div class="usa-nav__secondary">
-			<span class="usa-nav__secondary-links">
+			<div class="usa-nav__secondary-links">
           <div>
     <div id="block-usagov-topnavphone-2" class="settings-tray-editable block block-block-content block-block-content8607aa33-7c01-41c7-bd04-b8fb894224a1" data-drupal-settingstray="editable">
   
@@ -330,9 +330,9 @@
 
   </div>
 
-			</span>
+			</div>
 			<!-- Search Bar -->
-			<form id="usagov_all_gov-desktop" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="search_form" accept-charset="UTF-8" role="search">
+			<form id="usagov_all_gov-desktop" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="usagov_all_gov-desktop" accept-charset="UTF-8" role="search">
   <label id="top-srch" class="usa-sr-only" for="search-field-small">Search</label>
   <input id="affiliate" name="affiliate" type="hidden" value="usagov_all_gov">
   <input
@@ -359,37 +359,37 @@
 		</button>
 		<ul class="usa-nav__primary usa-accordion">
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/#all-topics-header class="usa-nav__link">
+      <a href="/#all-topics-header" class="usa-nav__link">
 				<span>All topics and services</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/about-the-us class="usa-nav__link">
+      <a href="/about-the-us" class="usa-nav__link">
 				<span>The U.S. and its government</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/benefits class="usa-nav__link">
+      <a href="/benefits" class="usa-nav__link">
 				<span>Government benefits</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/immigration-and-citizenship class="usa-nav__link">
+      <a href="/immigration-and-citizenship" class="usa-nav__link">
 				<span>Immigration and U.S. citizenship</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/money class="usa-nav__link">
+      <a href="/money" class="usa-nav__link">
 				<span>Money and credit</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/taxes class="usa-nav__link">
+      <a href="/taxes" class="usa-nav__link">
 				<span>Taxes</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/travel class="usa-nav__link">
+      <a href="/travel" class="usa-nav__link">
 				<span>Travel</span>
 			</a>
 		</li>
@@ -532,16 +532,6 @@
                     
   <li class="usa-sidenav__item">
 
-          <a href="/vote-gov">
-        Vote.gov
-      </a>
-    
-        
-  </li>
-
-                    
-  <li class="usa-sidenav__item">
-
           <a href="/search-gov">
         Search.gov
       </a>
@@ -649,7 +639,7 @@
         </p>
     </div>
         
-            <div class="usa-prose body-copy"><p>To help connect people with government services and information, USAGov Outreach also partners with government agencies, nonprofits, media, and other organizations to create:</p><ul><li>One-time events</li><li>Full-scale campaigns</li><li>Bilingual English/Spanish outreach strategies</li><li>Social media reposts of agencies’ messaging</li></ul><p>The team shares marketing lessons, user experience tips, data analytics, and more with partners.</p><p>Get in touch to learn about partnership.</p><p><a class="usa-button usa-button--secondary usa-button--big" href="https://connect.usa.gov/digital-toolkit-get-started">Contact USAGov Outreach</a></p><h2><strong>USAGov Outreach platforms</strong></h2><h3>English social media and email</h3><ul><li><a href="https://twitter.com/USAgov">Twitter (X)</a></li><li><a href="https://www.facebook.com/USAgov">Facebook</a></li><li><a href="https://www.instagram.com/usagov/">Instagram</a></li><li><a href="https://www.youtube.com/usagov1">YouTube</a></li><li><a href="/features">Feature articles for the media</a></li><li><a href="https://connect.usa.gov/subscribe">Email subscription</a></li><li><a href="https://blog.usa.gov/">Blog</a></li></ul><h3>Spanish social media and email</h3><ul><li><a href="https://twitter.com/usagovespanol">Twitter (X)</a></li><li><a href="https://www.facebook.com/usagovespanol">Facebook</a></li><li><a href="https://www.youtube.com/USAgovespanol">YouTube</a></li><li><a href="/es/articulos">Feature articles for the media</a></li><li><a href="https://conectate.gobiernousa.gov/suscripciones">Email subscription</a></li></ul></div>
+            <div class="usa-prose body-copy"><p>To help connect people with government services and information, USAGov Outreach also partners with government agencies, nonprofits, media, and other organizations to create:</p><ul><li>One-time events</li><li>Full-scale campaigns</li><li>Bilingual English/Spanish outreach strategies</li><li>Social media reposts of agencies’ messaging</li></ul><p>The team shares marketing lessons, user experience tips, data analytics, and more with partners.</p><p>Get in touch to learn about partnership.</p><p><a class="usa-button usa-button--secondary usa-button--big" href="https://connect.usa.gov/digital-toolkit-get-started">Contact USAGov Outreach</a></p><h2><strong>USAGov Outreach platforms</strong></h2><h3>English social media and email</h3><ul><li><a href="https://twitter.com/USAgov">Twitter (X)</a></li><li><a href="https://www.facebook.com/USAgov">Facebook</a></li><li><a href="https://www.instagram.com/usagov/">Instagram</a></li><li><a href="https://www.youtube.com/usagov1">YouTube</a></li><li><a href="/features">Feature articles for the media</a></li><li><a href="https://connect.usa.gov/subscribe">Email subscription</a></li><li><a href="https://blog.usa.gov/">Blog</a></li></ul><h3>Spanish social media and email</h3><ul><li><a href="https://twitter.com/usagovespanol">Twitter (X) in Spanish</a></li><li><a href="https://www.facebook.com/usagovespanol">Facebook in Spanish</a></li><li><a href="https://www.youtube.com/USAgovespanol">YouTube in Spanish</a></li><li><a href="/es/articulos">Feature articles for the media in Spanish</a></li><li><a href="https://conectate.gobiernousa.gov/suscripciones">Email subscription in Spanish</a></li></ul></div>
       
     	</div>
 
@@ -660,7 +650,7 @@
 <div class="views-element-container settings-tray-editable block block-views block-views-blockwizard-step-test-block-1" id="block-views-block-wizard-step-test-block-1" data-drupal-settingstray="editable">
   
     
-      <div><div class="js-view-dom-id-2ffd4e8e7537d3c2e97f0bed4f241e5207b9a8f5932cbcfe3e8cc2e7d0ff5673">
+      <div><div class="js-view-dom-id-189ec6161780d86b2b698fe0349c14d52bab6485041061df8ddfd961c77e9dce">
   
   
   
@@ -686,7 +676,7 @@
                       <div class="additional_body_info">
               
                                   <p id="last-updated">LAST UPDATED: 
-                                                                                      December 17, 2024
+                                                                                      May 1, 2025
 
                   </p>
                               
@@ -695,7 +685,7 @@
 	<div id="sm-share">
 		<span id="share-page">SHARE THIS PAGE:</span>
 		<div class="share-icons">
-			<a aria-labelledby="share-page fb" href="https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/outreach&v=3">
+			<a aria-labelledby="share-page fb" href="https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/outreach&amp;v=3">
 				<div class="share-icon-div">
 					<img class="share-icon" id="fb" src="/themes/custom/usagov/images/social-media-icons/Facebook_Icon.svg" alt="Facebook"/>
 				</div>
@@ -972,7 +962,7 @@
 
 <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/169","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"top_nav_menu":[{"\/#all-topics-header":"usa-nav__topics"},{"\/about-the-us":"usa-nav__about"},{"\/money":"usa-nav__money"},{"\/laws-and-legal-issues":"usa-nav__law"},{"\/scams-and-fraud":"usa-nav__scams"},{"\/benefits":"usa-nav_benefits"},{"\/housing-help":"usa-nav_housing"},{"\/immigration-and-citizenship":null},{"\/taxes":"usa-nav_taxes"},{"\/travel":"usa-nav_travel"},{"\/voting-and-elections":null}],"user":{"uid":0,"permissionsHash":"7305919e0d31d85b27a57f0f58e02d77182231e92328f41207eaf2e6537ef320"}}</script>
 <script src="/sites/default/files/js/js_3ZpwrOYPuJlAJ0zjL9bqIH6uVK1ZqKh0Zb6IOed8lVU.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=usagov&amp;include=eJx1i0EOwjAMBD9Emz9wQ-IPlpsYE0jsynGL2tcTUThy3JnZqEYhap1VSLyNS0PWdRgaocX7hHY6SOCiE5ah-Vay8I8W3LerYjrzpSLTF4PrDIJrZvSsApVkCf8VPFo_vlKD-KSUXQ2yOLF9knAojFEt9T3eTLuV9AYiJkrD"></script>
-<script src="/modules/contrib/uswds_ckeditor_integration/js/aftermarket/uswds_accordion.js?su2f1o"></script>
+<script src="/modules/contrib/uswds_ckeditor_integration/js/aftermarket/uswds_accordion.js?svv8mr"></script>
 
   
 

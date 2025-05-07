@@ -90,7 +90,7 @@
           "name": "Local public libraries",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "<p>Public libraries have:</p><ul><li>Experts who can help you find the resources you need</li><li>Research databases</li><li>Computer stations</li><li>Books, movies, and music to borrow in print and digital formats</li><li>English classes</li><li>Programs and events for kids and all ages based on holidays, historical events, and more</li></ul><p><a class=\"usa-button usa-button--secondary usa-button--big\" href=\"https://www.careeronestop.org/LocalHelp/CommunityServices/find-libraries.aspx\">Find your local library</a> </p>"
+            "text": "<p>Public libraries have:</p><ul><li>Experts who can help you find the resources you need</li><li>Research databases</li><li>Computer stations</li><li>Books, movies, and music to borrow in print and digital formats</li><li>English classes</li><li>Programs and events for all ages based on holidays, historical events, and more</li></ul><p><a class=\"usa-button usa-button--secondary usa-button--big\" href=\"https://www.careeronestop.org/LocalHelp/CommunityServices/find-libraries.aspx\">Use the Library Finder</a> </p>"
           }
         },
                         {
@@ -175,8 +175,8 @@
 							<span class="icon-lock">
 								<svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64"
 									class="usa-banner__lock-image"
-									aria-labelledby="banner-lock-description-default" focusable="false">
-									<title id="banner-lock-title-default">Lock</title>
+									aria-labelledby="banner-lock-description-default">
+									<title>Lock</title>
 									<desc id="banner-lock-description-default">Locked padlock icon</desc>
 									<path fill="#000000" fill-rule="evenodd"
 									d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
@@ -192,7 +192,8 @@
 </section>
 <script>
 	document.getElementById('gov-banner-default').setAttribute('hidden', 'until-found');
-</script><div id="block-usagov-mobilemenublock" class="settings-tray-editable block block-usagov-menus block-usagov-mobile-menu-block" data-drupal-settingstray="editable">
+</script>
+<div id="block-usagov-mobilemenublock" class="settings-tray-editable block block-usagov-menus block-usagov-mobile-menu-block" data-drupal-settingstray="editable">
   
     
       
@@ -218,7 +219,7 @@
       </div>
       <div class="usa-nav__secondary">
         <!-- Search Bar -->
-        <form id="usagov_all_gov-mobile" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="search_form" accept-charset="UTF-8" role="search">
+        <form id="usagov_all_gov-mobile" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="usagov_all_gov-mobile" accept-charset="UTF-8" role="search">
   <label id="top-srch-mobile-menu" class="usa-sr-only" for="search-field-small-mobile-menu">Search</label>
   <input id="affiliate-mobile-menu" name="affiliate" type="hidden" value="usagov_all_gov">
   <input
@@ -235,7 +236,7 @@
   </button>
 </form>
 
-        <span class="usa-nav__secondary-links">
+        <div class="usa-nav__secondary-links">
             <div>
     <div id="block-usagov-topnavmobile-2" class="settings-tray-editable block block-block-content block-block-contentba151291-a004-469d-9192-deb7730e19df" data-drupal-settingstray="editable">
   
@@ -250,7 +251,7 @@
 
   </div>
 
-        </span>
+        </div>
       </div>
     </div>
 
@@ -274,16 +275,16 @@
                         <a href="/financial-aid">Financial aid and loans</a>
                       </li>
                                                                                                                                     <li class="navigation__item sibling">
-                        <a href="/study-in-us">Study in the U.S.</a>
-                      </li>
-                                                                                                                                    <li class="navigation__item sibling">
-                        <a href="/special-education">Early intervention and special education services for children</a>
-                      </li>
-                                                                                                                                    <li class="navigation__item sibling">
                         <a href="/child-care-head-start">Get help with child care costs and learn about Head Start</a>
+                      </li>
+                                                                                                                                    <li class="navigation__item sibling">
+                        <a href="/study-in-us">Study in the U.S.</a>
                       </li>
                                                                                                                                     <li class="navigation__item active">
                         <a href="#">Libraries and archives</a>
+                      </li>
+                                                                                                                                    <li class="navigation__item sibling">
+                        <a href="/special-education">Early intervention and special education services for children</a>
                       </li>
                                       </ul>
                 </li>
@@ -319,12 +320,14 @@
 	</div>
 
 	<div class="navbar-right">
-                
+    
+            
+    	
                           
 			<a href="/es/bibliotecas-publicas" class="usa-button language-link" hreflang="es" role="button">Español</a>
 		      		<button class="usa-menu-btn">Menu</button>
 		<div class="usa-nav__secondary">
-			<span class="usa-nav__secondary-links">
+			<div class="usa-nav__secondary-links">
           <div>
     <div id="block-usagov-topnavphone-2" class="settings-tray-editable block block-block-content block-block-content8607aa33-7c01-41c7-bd04-b8fb894224a1" data-drupal-settingstray="editable">
   
@@ -339,9 +342,9 @@
 
   </div>
 
-			</span>
+			</div>
 			<!-- Search Bar -->
-			<form id="usagov_all_gov-desktop" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="search_form" accept-charset="UTF-8" role="search">
+			<form id="usagov_all_gov-desktop" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="usagov_all_gov-desktop" accept-charset="UTF-8" role="search">
   <label id="top-srch" class="usa-sr-only" for="search-field-small">Search</label>
   <input id="affiliate" name="affiliate" type="hidden" value="usagov_all_gov">
   <input
@@ -368,37 +371,37 @@
 		</button>
 		<ul class="usa-nav__primary usa-accordion">
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/#all-topics-header class="usa-nav__link">
+      <a href="/#all-topics-header" class="usa-nav__link">
 				<span>All topics and services</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/about-the-us class="usa-nav__link">
+      <a href="/about-the-us" class="usa-nav__link">
 				<span>The U.S. and its government</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/benefits class="usa-nav__link">
+      <a href="/benefits" class="usa-nav__link">
 				<span>Government benefits</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/immigration-and-citizenship class="usa-nav__link">
+      <a href="/immigration-and-citizenship" class="usa-nav__link">
 				<span>Immigration and U.S. citizenship</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/money class="usa-nav__link">
+      <a href="/money" class="usa-nav__link">
 				<span>Money and credit</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/taxes class="usa-nav__link">
+      <a href="/taxes" class="usa-nav__link">
 				<span>Taxes</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/travel class="usa-nav__link">
+      <a href="/travel" class="usa-nav__link">
 				<span>Travel</span>
 			</a>
 		</li>
@@ -495,28 +498,18 @@
                     
   <li class="usa-sidenav__item">
 
-          <a href="/study-in-us">
-        Study in the U.S.
-      </a>
-    
-        
-  </li>
-
-                    
-  <li class="usa-sidenav__item">
-
-          <a href="/special-education">
-        Early intervention and special education services for children
-      </a>
-    
-        
-  </li>
-
-                    
-  <li class="usa-sidenav__item">
-
           <a href="/child-care-head-start">
         Get help with child care costs and learn about Head Start
+      </a>
+    
+        
+  </li>
+
+                    
+  <li class="usa-sidenav__item">
+
+          <a href="/study-in-us">
+        Study in the U.S.
       </a>
     
         
@@ -529,6 +522,16 @@
         <p class="usa-sr-only">current page</p>
         Libraries and archives
       </div>
+    
+        
+  </li>
+
+                    
+  <li class="usa-sidenav__item">
+
+          <a href="/special-education">
+        Early intervention and special education services for children
+      </a>
     
         
   </li>
@@ -569,7 +572,7 @@
         </p>
     </div>
         
-            <div class="usa-prose body-copy"><h2><strong>Local public libraries</strong></h2><p>Public libraries have:</p><ul><li>Experts who can help you find the resources you need</li><li>Research databases</li><li>Computer stations</li><li>Books, movies, and music to borrow in print and digital formats</li><li>English classes</li><li>Programs and events for kids and all ages based on holidays, historical events, and more</li></ul><p><a class="usa-button usa-button--secondary usa-button--big" href="https://www.careeronestop.org/LocalHelp/CommunityServices/find-libraries.aspx">Find your local library</a>&nbsp;</p><h2><strong>Federal libraries and archives</strong></h2><p>Most federal libraries have a specific focus.</p><div><table class="usa-table--borderless usa-table"><thead><tr><th>Libraries</th><th>Library offerings</th></tr></thead><tbody><tr><td><a href="https://www.loc.gov/">Library of Congress (LOC)</a></td><td><ul><li>The world's largest library</li><li>Provides unbiased research to Congress</li><li>Home of the U.S. Copyright Office</li></ul></td></tr><tr><td><a href="https://www.fdlp.gov/">Federal depository libraries</a></td><td>Federal information available for free public use in over 1,200 locations</td></tr><tr><td><a href="https://www.loc.gov/flicc/FLD/index_FLD.html">Federal Library and Information Network</a></td><td>Find federal libraries around the world.</td></tr><tr><td><a href="https://www.nal.usda.gov/">National Agricultural Library</a></td><td>One of the world's largest collections devoted to agriculture and related sciences</td></tr><tr><td><a href="https://www.archives.gov/">National Archives and Records Administration (NARA)</a></td><td><ul><li>Preserves documents with legal and historical value</li><li>You can research your family history and military records</li></ul></td></tr><tr><td><a href="https://ies.ed.gov/ncee/projects/nle/">National Library of Education (NLE)</a></td><td>Locate education information, federal education policy, and statistics</td></tr><tr><td><a href="https://www.nlm.nih.gov/">National Library of Medicine</a></td><td><ul><li>Part of the National Institutes of Health (NIH)</li><li>World's largest biomedical library</li><li>Develops ways to make biomedical information more accessible for research and health care</li></ul></td></tr><tr><td><a href="https://www.loc.gov/nls/thatallmayread/">National Library Service (NLS) for the Blind and Print Disabled</a></td><td><ul><li>A national network of libraries that loan recorded and braille books, magazines, and playback equipment</li><li>For those who are blind or physically impaired and cannot use standard print materials</li></ul></td></tr><tr><td><a href="https://ntl.bts.gov/ntl">National Transportation Library</a></td><td>Provides access to transportation-related research, reports, data, and reference services</td></tr><tr><td><a href="https://www.archives.gov/presidential-libraries/visit">Presidential libraries</a></td><td>Archives and museums displaying documents and artifacts of a president and their administration</td></tr></tbody></table></div></div>
+            <div class="usa-prose body-copy"><h2><strong>Local public libraries</strong></h2><p>Public libraries have:</p><ul><li>Experts who can help you find the resources you need</li><li>Research databases</li><li>Computer stations</li><li>Books, movies, and music to borrow in print and digital formats</li><li>English classes</li><li>Programs and events for all ages based on holidays, historical events, and more</li></ul><p><a class="usa-button usa-button--secondary usa-button--big" href="https://www.careeronestop.org/LocalHelp/CommunityServices/find-libraries.aspx">Use the Library Finder</a>&nbsp;</p><h2><strong>Federal libraries and archives</strong></h2><p>Most federal libraries have a specific focus.</p><div><table class="usa-table--borderless usa-table"><thead><tr><th>Libraries</th><th>Library offerings</th></tr></thead><tbody><tr><td><a href="https://www.loc.gov/">Library of Congress (LOC)</a></td><td><ul><li>The world's largest library</li><li>Provides unbiased research to Congress</li><li>Home of the U.S. Copyright Office</li></ul></td></tr><tr><td><a href="https://www.fdlp.gov/">Federal depository libraries</a></td><td>Federal information available for free public use in over 1,200 locations</td></tr><tr><td><a href="https://www.loc.gov/flicc/FLD/index_FLD.html">Federal Library and Information Network</a></td><td>Find federal libraries around the world.</td></tr><tr><td><a href="https://www.nal.usda.gov/">National Agricultural Library</a></td><td>One of the world's largest collections devoted to agriculture and related sciences</td></tr><tr><td><a href="https://www.archives.gov/">National Archives and Records Administration (NARA)</a></td><td><ul><li>Preserves documents with legal and historical value</li><li>You can research your family history and military records</li></ul></td></tr><tr><td><a href="https://ies.ed.gov/ncee/projects/nle/">National Library of Education (NLE)</a></td><td>Locate education information, federal education policy, and statistics</td></tr><tr><td><a href="https://www.nlm.nih.gov/">National Library of Medicine</a></td><td><ul><li>Part of the National Institutes of Health (NIH)</li><li>World's largest biomedical library</li><li>Develops ways to make biomedical information more accessible for research and health care</li></ul></td></tr><tr><td><a href="https://www.loc.gov/nls/thatallmayread/">National Library Service (NLS) for the Blind and Print Disabled</a></td><td><ul><li>A national network of libraries that loan recorded and braille books, magazines, and playback equipment</li><li>For those who are blind or physically impaired and cannot use standard print materials</li></ul></td></tr><tr><td><a href="https://ntl.bts.gov/ntl">National Transportation Library</a></td><td>Provides access to transportation-related research, reports, data, and reference services</td></tr><tr><td><a href="https://www.archives.gov/presidential-libraries/visit">Presidential libraries</a></td><td>Archives and museums displaying documents and artifacts of a president and their administration</td></tr></tbody></table></div></div>
       
     	</div>
 
@@ -580,7 +583,7 @@
 <div class="views-element-container settings-tray-editable block block-views block-views-blockwizard-step-test-block-1" id="block-views-block-wizard-step-test-block-1" data-drupal-settingstray="editable">
   
     
-      <div><div class="js-view-dom-id-b100b7bc7b544bbf15ef9b8d75c2aec6a91fd001da640ea1001a8659cf53890a">
+      <div><div class="js-view-dom-id-72ad600377b429a6c6a05e7beefeb2559797656420640a748dee8f8bba63c505">
   
   
   
@@ -606,7 +609,7 @@
                       <div class="additional_body_info">
               
                                   <p id="last-updated">LAST UPDATED: 
-                                                                                      July 16, 2024
+                                                                                      April 10, 2025
 
                   </p>
                               
@@ -615,7 +618,7 @@
 	<div id="sm-share">
 		<span id="share-page">SHARE THIS PAGE:</span>
 		<div class="share-icons">
-			<a aria-labelledby="share-page fb" href="https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/libraries-and-archives&v=3">
+			<a aria-labelledby="share-page fb" href="https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/libraries-and-archives&amp;v=3">
 				<div class="share-icon-div">
 					<img class="share-icon" id="fb" src="/themes/custom/usagov/images/social-media-icons/Facebook_Icon.svg" alt="Facebook"/>
 				</div>
@@ -892,7 +895,7 @@
 
 <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/298","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"top_nav_menu":[{"\/#all-topics-header":"usa-nav__topics"},{"\/about-the-us":"usa-nav__about"},{"\/money":"usa-nav__money"},{"\/laws-and-legal-issues":"usa-nav__law"},{"\/scams-and-fraud":"usa-nav__scams"},{"\/benefits":"usa-nav_benefits"},{"\/housing-help":"usa-nav_housing"},{"\/immigration-and-citizenship":null},{"\/taxes":"usa-nav_taxes"},{"\/travel":"usa-nav_travel"},{"\/voting-and-elections":null}],"user":{"uid":0,"permissionsHash":"7305919e0d31d85b27a57f0f58e02d77182231e92328f41207eaf2e6537ef320"}}</script>
 <script src="/sites/default/files/js/js_3ZpwrOYPuJlAJ0zjL9bqIH6uVK1ZqKh0Zb6IOed8lVU.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=usagov&amp;include=eJx1i0EOwjAMBD9Emz9wQ-IPlpsYE0jsynGL2tcTUThy3JnZqEYhap1VSLyNS0PWdRgaocX7hHY6SOCiE5ah-Vay8I8W3LerYjrzpSLTF4PrDIJrZvSsApVkCf8VPFo_vlKD-KSUXQ2yOLF9knAojFEt9T3eTLuV9AYiJkrD"></script>
-<script src="/modules/contrib/uswds_ckeditor_integration/js/aftermarket/uswds_accordion.js?su2f1o"></script>
+<script src="/modules/contrib/uswds_ckeditor_integration/js/aftermarket/uswds_accordion.js?svv8mr"></script>
 
   
 
