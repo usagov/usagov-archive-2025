@@ -155,8 +155,8 @@
 							<span class="icon-lock">
 								<svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64"
 									class="usa-banner__lock-image"
-									aria-labelledby="banner-lock-description-default" focusable="false">
-									<title id="banner-lock-title-default">Lock</title>
+									aria-labelledby="banner-lock-description-default">
+									<title>Lock</title>
 									<desc id="banner-lock-description-default">Locked padlock icon</desc>
 									<path fill="#000000" fill-rule="evenodd"
 									d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
@@ -172,7 +172,8 @@
 </section>
 <script>
 	document.getElementById('gov-banner-default').setAttribute('hidden', 'until-found');
-</script><div id="block-usagov-mobilemenublock" class="settings-tray-editable block block-usagov-menus block-usagov-mobile-menu-block" data-drupal-settingstray="editable">
+</script>
+<div id="block-usagov-mobilemenublock" class="settings-tray-editable block block-usagov-menus block-usagov-mobile-menu-block" data-drupal-settingstray="editable">
   
     
       
@@ -198,7 +199,7 @@
       </div>
       <div class="usa-nav__secondary">
         <!-- Search Bar -->
-        <form id="usagov_all_gov-mobile" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="search_form" accept-charset="UTF-8" role="search">
+        <form id="usagov_all_gov-mobile" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="usagov_all_gov-mobile" accept-charset="UTF-8" role="search">
   <label id="top-srch-mobile-menu" class="usa-sr-only" for="search-field-small-mobile-menu">Search</label>
   <input id="affiliate-mobile-menu" name="affiliate" type="hidden" value="usagov_all_gov">
   <input
@@ -215,9 +216,9 @@
   </button>
 </form>
 
-        <span class="usa-nav__secondary-links">
+        <div class="usa-nav__secondary-links">
           
-        </span>
+        </div>
       </div>
     </div>
 
@@ -285,16 +286,18 @@
 	</div>
 
 	<div class="navbar-right">
-                
+    
+            
+    	
                           
 			<a href="/es/buscador-beneficios" class="usa-button language-link" hreflang="es" role="button">Español</a>
 		      		<button class="usa-menu-btn">Menu</button>
 		<div class="usa-nav__secondary">
-			<span class="usa-nav__secondary-links">
+			<div class="usa-nav__secondary-links">
         
-			</span>
+			</div>
 			<!-- Search Bar -->
-			<form id="usagov_all_gov-desktop" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="search_form" accept-charset="UTF-8" role="search">
+			<form id="usagov_all_gov-desktop" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="usagov_all_gov-desktop" accept-charset="UTF-8" role="search">
   <label id="top-srch" class="usa-sr-only" for="search-field-small">Search</label>
   <input id="affiliate" name="affiliate" type="hidden" value="usagov_all_gov">
   <input
@@ -321,37 +324,37 @@
 		</button>
 		<ul class="usa-nav__primary usa-accordion">
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/#all-topics-header class="usa-nav__link">
+      <a href="/#all-topics-header" class="usa-nav__link">
 				<span>All topics and services</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/about-the-us class="usa-nav__link">
+      <a href="/about-the-us" class="usa-nav__link">
 				<span>The U.S. and its government</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/benefits class="usa-nav__link">
+      <a href="/benefits" class="usa-nav__link">
 				<span>Government benefits</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/immigration-and-citizenship class="usa-nav__link">
+      <a href="/immigration-and-citizenship" class="usa-nav__link">
 				<span>Immigration and U.S. citizenship</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/money class="usa-nav__link">
+      <a href="/money" class="usa-nav__link">
 				<span>Money and credit</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/taxes class="usa-nav__link">
+      <a href="/taxes" class="usa-nav__link">
 				<span>Taxes</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/travel class="usa-nav__link">
+      <a href="/travel" class="usa-nav__link">
 				<span>Travel</span>
 			</a>
 		</li>
@@ -447,7 +450,7 @@
   <p class="benefit-finder__desc">Answer some basic questions to get a customized list of potential government benefits you may be eligible for during life events.</p>
 
 <div class="benefit-finder__main">
-  <div class="views-element-container"><div class="js-view-dom-id-927293764b93a1f2e2de2b698ab2851162c6fd92b139f3c62d834233e07fb95a">
+  <div class="views-element-container"><div class="js-view-dom-id-b45d6e3762e1448b82b53492df16cc4ccdc88ae84dc60a20a6f3b80f1a5c1a35">
   
   
   
@@ -502,7 +505,7 @@
 </div>
 
 
-  <div class="views-element-container"><div class="js-view-dom-id-1f03508df7e508c3a08e33d59593f2fa6e656d013f1b3bf2daa52b03d96539bf">
+  <div class="views-element-container"><div class="js-view-dom-id-ad309c71e1686ec4a4fc00fbfa3bde1e7b3c653b5a84b4d4a21b7ca9959e6f82">
   
   
   
@@ -518,7 +521,7 @@
   <form id="benefitSearch" action="javascript:void(0)">
 
     <fieldset>
-              <legend><h2 id="categories-label" class="font-serif-lg">Find benefits by category</h2></legend>
+              <legend id="categories-label" class="font-serif-lg">Find benefits by category</legend>
                     <p id="categories-description">Select at least one category to find benefits you may qualify for and information on how to apply.</p>
       
       <div class="alert-container" aria-live="polite"></div>
@@ -701,7 +704,7 @@
 <div class="views-element-container settings-tray-editable block block-views block-views-blockwizard-step-test-block-1" id="block-views-block-wizard-step-test-block-1" data-drupal-settingstray="editable">
   
     
-      <div><div class="js-view-dom-id-011a84dd734b5fee272474aef97ee089afb4551e106573374089776af7dbae22">
+      <div><div class="js-view-dom-id-70c8b55db30c83b25c94069f16d782551a57ed35c76545beb4019b3403f41bd4">
   
   
   
@@ -731,7 +734,7 @@
 	<div id="sm-share">
 		<span id="share-page">SHARE THIS PAGE:</span>
 		<div class="share-icons">
-			<a aria-labelledby="share-page fb" href="https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/benefit-finder&v=3">
+			<a aria-labelledby="share-page fb" href="https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/benefit-finder&amp;v=3">
 				<div class="share-icon-div">
 					<img class="share-icon" id="fb" src="/themes/custom/usagov/images/social-media-icons/Facebook_Icon.svg" alt="Facebook"/>
 				</div>
@@ -957,7 +960,7 @@
 
 <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/2267","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"top_nav_menu":[{"\/#all-topics-header":"usa-nav__topics"},{"\/about-the-us":"usa-nav__about"},{"\/money":"usa-nav__money"},{"\/laws-and-legal-issues":"usa-nav__law"},{"\/scams-and-fraud":"usa-nav__scams"},{"\/benefits":"usa-nav_benefits"},{"\/housing-help":"usa-nav_housing"},{"\/immigration-and-citizenship":null},{"\/taxes":"usa-nav_taxes"},{"\/travel":"usa-nav_travel"},{"\/voting-and-elections":null}],"user":{"uid":0,"permissionsHash":"7305919e0d31d85b27a57f0f58e02d77182231e92328f41207eaf2e6537ef320"}}</script>
 <script src="/sites/default/files/js/js_ocUw9HDAmi6NIXHwvSwctc9tYCxZMPnv3brCxKXOJSc.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=usagov&amp;include=eJx1jEEOwjAMBD9EyR-4IfEHy3VcE0jtykmLyuuJCD1ysnZmvWTOgWxeTFlrOa8FxbZhKIxO9xH91EmQbCPmodQ9J5WDZnzvN8N4keuMwj8MIytPqQJhZTHfoc-Ffo5WtQUUtyRYkynMrGv4r-BR2uMrFqAnx1TNIWmb928ldIVE5rHl8-TWrMYPQHVZ9w"></script>
-<script src="/modules/contrib/uswds_ckeditor_integration/js/aftermarket/uswds_accordion.js?su2f1o"></script>
+<script src="/modules/contrib/uswds_ckeditor_integration/js/aftermarket/uswds_accordion.js?svv8mr"></script>
 
   
 

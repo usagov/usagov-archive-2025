@@ -144,8 +144,8 @@
 							<span class="icon-lock">
 								<svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64"
 									class="usa-banner__lock-image"
-									aria-labelledby="banner-lock-description-default" focusable="false">
-									<title id="banner-lock-title-default">Lock</title>
+									aria-labelledby="banner-lock-description-default">
+									<title>Lock</title>
 									<desc id="banner-lock-description-default">Locked padlock icon</desc>
 									<path fill="#000000" fill-rule="evenodd"
 									d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
@@ -162,6 +162,7 @@
 <script>
 	document.getElementById('gov-banner-default').setAttribute('hidden', 'until-found');
 </script>
+
     
     
   
@@ -189,7 +190,7 @@
       </div>
       <div class="usa-nav__secondary">
         <!-- Search Bar -->
-        <form id="usagov_all_gov-mobile" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="search_form" accept-charset="UTF-8" role="search">
+        <form id="usagov_all_gov-mobile" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="usagov_all_gov-mobile" accept-charset="UTF-8" role="search">
   <label id="top-srch-mobile-menu" class="usa-sr-only" for="search-field-small-mobile-menu">Search</label>
   <input id="affiliate-mobile-menu" name="affiliate" type="hidden" value="usagov_all_gov">
   <input
@@ -206,17 +207,17 @@
   </button>
 </form>
 
-        <span class="usa-nav__secondary-links">
+        <div class="usa-nav__secondary-links">
           <span id="top-phone-mobile-menu" class="usa-nav__secondary-item">
             <a href="/phone" class="">1-844-USAGOV1</a>
           </span>
-        </span>
+        </div>
       </div>
     </div>
 
   <ul class="navigation__items ancestors">
             <li class="navigation__item active">
-      <a class="usa-current" href="/where-report-scams" class="active-trail">
+      <a class="usa-current active-trail" href="/where-report-scams">
         Scams and fraud
       </a>
       <ul class="navigation__items children">
@@ -264,7 +265,7 @@
 	<div class="navbar-right">
       		<button class="usa-menu-btn">Menu</button>
 		<div class="usa-nav__secondary">
-			<span class="usa-nav__secondary-links">
+			<div class="usa-nav__secondary-links">
           <div>
     <div id="block-usagov-topnavphone-2" class="settings-tray-editable block block-block-content block-block-content8607aa33-7c01-41c7-bd04-b8fb894224a1" data-drupal-settingstray="editable">
   
@@ -279,9 +280,9 @@
 
   </div>
 
-			</span>
+			</div>
 			<!-- Search Bar -->
-			<form id="usagov_all_gov-desktop" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="search_form" accept-charset="UTF-8" role="search">
+			<form id="usagov_all_gov-desktop" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="usagov_all_gov-desktop" accept-charset="UTF-8" role="search">
   <label id="top-srch" class="usa-sr-only" for="search-field-small">Search</label>
   <input id="affiliate" name="affiliate" type="hidden" value="usagov_all_gov">
   <input
@@ -308,37 +309,37 @@
 		</button>
 		<ul class="usa-nav__primary usa-accordion">
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/#all-topics-header class="usa-nav__link">
+      <a href="/#all-topics-header" class="usa-nav__link">
 				<span>All topics and services</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/about-the-us class="usa-nav__link">
+      <a href="/about-the-us" class="usa-nav__link">
 				<span>The U.S. and its government</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/benefits class="usa-nav__link">
+      <a href="/benefits" class="usa-nav__link">
 				<span>Government benefits</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/immigration-and-citizenship class="usa-nav__link">
+      <a href="/immigration-and-citizenship" class="usa-nav__link">
 				<span>Immigration and U.S. citizenship</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/money class="usa-nav__link">
+      <a href="/money" class="usa-nav__link">
 				<span>Money and credit</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/taxes class="usa-nav__link">
+      <a href="/taxes" class="usa-nav__link">
 				<span>Taxes</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/travel class="usa-nav__link">
+      <a href="/travel" class="usa-nav__link">
 				<span>Travel</span>
 			</a>
 		</li>
@@ -678,7 +679,7 @@
 
 <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"taxonomy\/term\/75","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"top_nav_menu":[{"\/#all-topics-header":"usa-nav__topics"},{"\/about-the-us":"usa-nav__about"},{"\/money":"usa-nav__money"},{"\/laws-and-legal-issues":"usa-nav__law"},{"\/scams-and-fraud":"usa-nav__scams"},{"\/benefits":"usa-nav_benefits"},{"\/housing-help":"usa-nav_housing"},{"\/immigration-and-citizenship":null},{"\/taxes":"usa-nav_taxes"},{"\/travel":"usa-nav_travel"},{"\/voting-and-elections":null}],"user":{"uid":0,"permissionsHash":"7305919e0d31d85b27a57f0f58e02d77182231e92328f41207eaf2e6537ef320"}}</script>
 <script src="/sites/default/files/js/js_AU4to30JV3O0NEeYzoruqWXI1sH4Dzb1Ba80nMv3Rqo.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=usagov&amp;include=eJx1y0EWwiAMBNALSTmM7vNSiIhCwgtpaz29PKtLlzN_JoiSD1KbMLH1aemYZHWuE2q4zaino_GpyIzFddtL5vRrt_xCjWejdsGnsNT9K2DSgHHNCS0LQyVe_H-Cex_HLXYID4rZRCGzUdLPxB-EIYjGkaerylCOb0JCTIM"></script>
-<script src="/modules/contrib/uswds_ckeditor_integration/js/aftermarket/uswds_accordion.js?su2f1o"></script>
+<script src="/modules/contrib/uswds_ckeditor_integration/js/aftermarket/uswds_accordion.js?svv8mr"></script>
 
 
 <!-- Needed_for_USA.gov_uptime_check -->

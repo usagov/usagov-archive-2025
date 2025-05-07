@@ -151,8 +151,8 @@
 							<span class="icon-lock">
 								<svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64"
 									class="usa-banner__lock-image"
-									aria-labelledby="banner-lock-description-default" focusable="false">
-									<title id="banner-lock-title-default">Lock</title>
+									aria-labelledby="banner-lock-description-default">
+									<title>Lock</title>
 									<desc id="banner-lock-description-default">Locked padlock icon</desc>
 									<path fill="#000000" fill-rule="evenodd"
 									d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
@@ -168,7 +168,8 @@
 </section>
 <script>
 	document.getElementById('gov-banner-default').setAttribute('hidden', 'until-found');
-</script><div id="block-usagov-mobilemenublock" class="settings-tray-editable block block-usagov-menus block-usagov-mobile-menu-block" data-drupal-settingstray="editable">
+</script>
+<div id="block-usagov-mobilemenublock" class="settings-tray-editable block block-usagov-menus block-usagov-mobile-menu-block" data-drupal-settingstray="editable">
   
     
       
@@ -194,7 +195,7 @@
       </div>
       <div class="usa-nav__secondary">
         <!-- Search Bar -->
-        <form id="usagov_all_gov-mobile" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="search_form" accept-charset="UTF-8" role="search">
+        <form id="usagov_all_gov-mobile" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="usagov_all_gov-mobile" accept-charset="UTF-8" role="search">
   <label id="top-srch-mobile-menu" class="usa-sr-only" for="search-field-small-mobile-menu">Search</label>
   <input id="affiliate-mobile-menu" name="affiliate" type="hidden" value="usagov_all_gov">
   <input
@@ -211,7 +212,7 @@
   </button>
 </form>
 
-        <span class="usa-nav__secondary-links">
+        <div class="usa-nav__secondary-links">
             <div>
     <div id="block-usagov-topnavmobile-2" class="settings-tray-editable block block-block-content block-block-contentba151291-a004-469d-9192-deb7730e19df" data-drupal-settingstray="editable">
   
@@ -226,7 +227,7 @@
 
   </div>
 
-        </span>
+        </div>
       </div>
     </div>
 
@@ -297,12 +298,14 @@
 	</div>
 
 	<div class="navbar-right">
-                
+    
+            
+    	
                           
 			<a href="/es/fuerzas-armadas-veteranos" class="usa-button language-link" hreflang="es" role="button">Español</a>
 		      		<button class="usa-menu-btn">Menu</button>
 		<div class="usa-nav__secondary">
-			<span class="usa-nav__secondary-links">
+			<div class="usa-nav__secondary-links">
           <div>
     <div id="block-usagov-topnavphone-2" class="settings-tray-editable block block-block-content block-block-content8607aa33-7c01-41c7-bd04-b8fb894224a1" data-drupal-settingstray="editable">
   
@@ -317,9 +320,9 @@
 
   </div>
 
-			</span>
+			</div>
 			<!-- Search Bar -->
-			<form id="usagov_all_gov-desktop" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="search_form" accept-charset="UTF-8" role="search">
+			<form id="usagov_all_gov-desktop" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="usagov_all_gov-desktop" accept-charset="UTF-8" role="search">
   <label id="top-srch" class="usa-sr-only" for="search-field-small">Search</label>
   <input id="affiliate" name="affiliate" type="hidden" value="usagov_all_gov">
   <input
@@ -346,37 +349,37 @@
 		</button>
 		<ul class="usa-nav__primary usa-accordion">
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/#all-topics-header class="usa-nav__link">
+      <a href="/#all-topics-header" class="usa-nav__link">
 				<span>All topics and services</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/about-the-us class="usa-nav__link">
+      <a href="/about-the-us" class="usa-nav__link">
 				<span>The U.S. and its government</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/benefits class="usa-nav__link">
+      <a href="/benefits" class="usa-nav__link">
 				<span>Government benefits</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/immigration-and-citizenship class="usa-nav__link">
+      <a href="/immigration-and-citizenship" class="usa-nav__link">
 				<span>Immigration and U.S. citizenship</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/money class="usa-nav__link">
+      <a href="/money" class="usa-nav__link">
 				<span>Money and credit</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/taxes class="usa-nav__link">
+      <a href="/taxes" class="usa-nav__link">
 				<span>Taxes</span>
 			</a>
 		</li>
 			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
-			<a href=/travel class="usa-nav__link">
+      <a href="/travel" class="usa-nav__link">
 				<span>Travel</span>
 			</a>
 		</li>
@@ -492,8 +495,8 @@
               <h2 class="usa-card__heading usagov-card__heading">Selective Service</h2>
             </header>
             <div class="usa-card__body padding-top-0 color-off-black">
-              <p>Learn how to register and verify your registration for the Selective Service.</p>
-            </div>
+                              <p>Learn how to register and verify your registration for the Selective Service.</p>
+                          </div>
           </a>
         </li>
               <li class="tablet:grid-col-6 tablet-lg:grid-col-4 usa-card">
@@ -502,8 +505,8 @@
               <h2 class="usa-card__heading usagov-card__heading">Requirements to join the U.S. military</h2>
             </header>
             <div class="usa-card__body padding-top-0 color-off-black">
-              <p>Find out how to enlist for each branch of the U.S. military.</p>
-            </div>
+                              <p>Find out how to enlist for each branch of the U.S. military.</p>
+                          </div>
           </a>
         </li>
               <li class="tablet:grid-col-6 tablet-lg:grid-col-4 usa-card">
@@ -512,8 +515,8 @@
               <h2 class="usa-card__heading usagov-card__heading">Military and veterans pay and benefits</h2>
             </header>
             <div class="usa-card__body padding-top-0 color-off-black">
-              <p>Find information on basic pay, pensions, survivor and health benefits for service members, veterans, and military retirees.</p>
-            </div>
+                              <p>Find information on basic pay, pensions, survivor and health benefits for service members, veterans, and military retirees.</p>
+                          </div>
           </a>
         </li>
               <li class="tablet:grid-col-6 tablet-lg:grid-col-4 usa-card">
@@ -522,8 +525,8 @@
               <h2 class="usa-card__heading usagov-card__heading">Military and veteran IDs</h2>
             </header>
             <div class="usa-card__body padding-top-0 color-off-black">
-              <p>Find out how to get or replace a military or veteran ID, or report a lost military or veteran ID.</p>
-            </div>
+                              <p>Find out how to get or replace a military or veteran ID, or report a lost military or veteran ID.</p>
+                          </div>
           </a>
         </li>
               <li class="tablet:grid-col-6 tablet-lg:grid-col-4 usa-card">
@@ -532,8 +535,8 @@
               <h2 class="usa-card__heading usagov-card__heading">Veterans jobs and training</h2>
             </header>
             <div class="usa-card__body padding-top-0 color-off-black">
-              <p>Find job opportunities and training programs for veterans.</p>
-            </div>
+                              <p>Find job opportunities and training programs for veterans.</p>
+                          </div>
           </a>
         </li>
               <li class="tablet:grid-col-6 tablet-lg:grid-col-4 usa-card">
@@ -542,8 +545,8 @@
               <h2 class="usa-card__heading usagov-card__heading">How to get copies of military records</h2>
             </header>
             <div class="usa-card__body padding-top-0 color-off-black">
-              <p>Learn how to get your own military records or someone else’s.</p>
-            </div>
+                              <p>Learn how to get your own military records or someone else’s.</p>
+                          </div>
           </a>
         </li>
               <li class="tablet:grid-col-6 tablet-lg:grid-col-4 usa-card">
@@ -552,8 +555,8 @@
               <h2 class="usa-card__heading usagov-card__heading">Locate military members</h2>
             </header>
             <div class="usa-card__body padding-top-0 color-off-black">
-              <p>Find a military member, retiree, or military facility.</p>
-            </div>
+                              <p>Find a military member, retiree, or military facility.</p>
+                          </div>
           </a>
         </li>
               <li class="tablet:grid-col-6 tablet-lg:grid-col-4 usa-card">
@@ -562,8 +565,8 @@
               <h2 class="usa-card__heading usagov-card__heading">Learn about the U.S. military branches</h2>
             </header>
             <div class="usa-card__body padding-top-0 color-off-black">
-              <p>Learn about the mission and history of the 6 branches of the U.S. armed forces.</p>
-            </div>
+                              <p>Learn about the mission and history of the 6 branches of the U.S. armed forces.</p>
+                          </div>
           </a>
         </li>
           </ul>
@@ -577,7 +580,7 @@
   <div class="views-element-container settings-tray-editable block block-views block-views-blockwizard-step-test-block-1" id="block-views-block-wizard-step-test-block-1" data-drupal-settingstray="editable">
   
     
-      <div><div class="js-view-dom-id-d4e3568e0d589ca6eb75e7fbfcfd3afbf2aea00093fed2aa997c4b81dfa2936e">
+      <div><div class="js-view-dom-id-27c3ef6ebc497e2a9ebfe027564c4a3141f184bcea719a5ad31ee45e225aaa5f">
   
   
   
@@ -607,7 +610,7 @@
 	<div id="sm-share">
 		<span id="share-page">SHARE THIS PAGE:</span>
 		<div class="share-icons">
-			<a aria-labelledby="share-page fb" href="https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/military-and-veterans&v=3">
+			<a aria-labelledby="share-page fb" href="https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/military-and-veterans&amp;v=3">
 				<div class="share-icon-div">
 					<img class="share-icon" id="fb" src="/themes/custom/usagov/images/social-media-icons/Facebook_Icon.svg" alt="Facebook"/>
 				</div>
@@ -856,7 +859,7 @@
 
 <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/318","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"top_nav_menu":[{"\/#all-topics-header":"usa-nav__topics"},{"\/about-the-us":"usa-nav__about"},{"\/money":"usa-nav__money"},{"\/laws-and-legal-issues":"usa-nav__law"},{"\/scams-and-fraud":"usa-nav__scams"},{"\/benefits":"usa-nav_benefits"},{"\/housing-help":"usa-nav_housing"},{"\/immigration-and-citizenship":null},{"\/taxes":"usa-nav_taxes"},{"\/travel":"usa-nav_travel"},{"\/voting-and-elections":null}],"user":{"uid":0,"permissionsHash":"7305919e0d31d85b27a57f0f58e02d77182231e92328f41207eaf2e6537ef320"}}</script>
 <script src="/sites/default/files/js/js_3ZpwrOYPuJlAJ0zjL9bqIH6uVK1ZqKh0Zb6IOed8lVU.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=usagov&amp;include=eJx1i0EOwjAMBD9Emz9wQ-IPlpsYE0jsynGL2tcTUThy3JnZqEYhap1VSLyNS0PWdRgaocX7hHY6SOCiE5ah-Vay8I8W3LerYjrzpSLTF4PrDIJrZvSsApVkCf8VPFo_vlKD-KSUXQ2yOLF9knAojFEt9T3eTLuV9AYiJkrD"></script>
-<script src="/modules/contrib/uswds_ckeditor_integration/js/aftermarket/uswds_accordion.js?su2f1o"></script>
+<script src="/modules/contrib/uswds_ckeditor_integration/js/aftermarket/uswds_accordion.js?svv8mr"></script>
 
   
 

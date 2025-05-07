@@ -146,8 +146,8 @@
 							<strong>Los sitios web seguros .gov usan HTTPS</strong><br>
 							Un <strong>candado</strong> (
 							<span class="icon-lock">
-								<svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" aria-labelledby="banner-lock-description-default" focusable="false">
-									<title id="banner-lock-title-default">Lock</title>
+								<svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" aria-labelledby="banner-lock-description-default">
+									<title>Lock</title>
 									<desc id="banner-lock-description-default">Locked padlock icon</desc>
 									<path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
 								</svg>
@@ -162,7 +162,8 @@
 </section>
 <script>
 	document.getElementById('gov-banner-default').setAttribute('hidden', 'until-found');
-</script><div id="block-usagov-mobilemenublock" class="settings-tray-editable block block-usagov-menus block-usagov-mobile-menu-block" data-drupal-settingstray="editable">
+</script>
+<div id="block-usagov-mobilemenublock" class="settings-tray-editable block block-usagov-menus block-usagov-mobile-menu-block" data-drupal-settingstray="editable">
   
     
       
@@ -188,7 +189,7 @@
       </div>
       <div class="usa-nav__secondary">
         <!-- Search Bar -->
-        <form id="usagov_es_internal-mobile" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="search_form" accept-charset="UTF-8" role="search">
+        <form id="usagov_es_internal-mobile" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="usagov_es_internal-mobile" accept-charset="UTF-8" role="search">
   <label id="top-srch-mobile-menu" class="usa-sr-only" for="search-field-small-mobile-menu">Buscar</label>
   <input id="affiliate-mobile-menu" name="affiliate" type="hidden" value="usagov_es_internal">
   <input id="search-field-small-mobile-menu" class="usa-input text usagov-search-autocomplete ui-autocomplete-input" type="search" name="query" placeholder="Busque en este sitio..." onfocus="this.placeholder" autocomplete="off">
@@ -197,7 +198,7 @@
   </button>
 </form>
 
-        <span class="usa-nav__secondary-links">
+        <div class="usa-nav__secondary-links">
             <div>
     <div id="block-usagov-topnavmobilees-2" class="settings-tray-editable block block-block-content block-block-content3e472cf8-278e-498f-b7f4-501eb8ea77a6" data-drupal-settingstray="editable">
   
@@ -213,7 +214,7 @@
 
   </div>
 
-        </span>
+        </div>
       </div>
     </div>
 
@@ -268,16 +269,10 @@
                           <a href="/es/articulos/beneficios-del-gobierno-para-usted-y-su-familia">Encuentre el beneficio del Gobierno apropiado para usted y su familia</a>
                         </li>
                                               <li class="navigation__item child">
-                          <a href="/es/articulos/guia-para-votar-2024">La guía de USAGov en Español para votar en 2024</a>
-                        </li>
-                                              <li class="navigation__item child">
                           <a href="/es/articulos/mejorando-la-salud-de-los-hombres">Mejorando la salud de los hombres</a>
                         </li>
                                               <li class="navigation__item child">
                           <a href="/es/articulos/salud-mental-donde-encontrar-ayuda">Salud mental: cómo reconocer que hay un problema y dónde encontrar ayuda</a>
-                        </li>
-                                              <li class="navigation__item child">
-                          <a href="/es/articulos/guia-de-preparacion-para-emergencias">Su guía de preparación para emergencias 2024</a>
                         </li>
                                           </ul>
                   
@@ -311,7 +306,7 @@
         <a href="/features" class="usa-button language-link" role="button" hreflang="en">English</a>
           		<button class="usa-menu-btn">Menú</button>
 		<div class="usa-nav__secondary">
-			<span class="usa-nav__secondary-links">
+			<div class="usa-nav__secondary-links">
           <div>
     <div id="block-usagov-topnavphonees-2" class="settings-tray-editable block block-block-content block-block-content8e768355-f298-44e8-81a9-e094cd55db26" data-drupal-settingstray="editable">
   
@@ -326,9 +321,9 @@
 
   </div>
 
-			</span>
+			</div>
 			<!-- Search Bar -->
-			<form id="usagov_es_internal-desktop" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="search_form" accept-charset="UTF-8" role="search">
+			<form id="usagov_es_internal-desktop" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="usagov_es_internal-desktop" accept-charset="UTF-8" role="search">
   <label id="top-srch" class="usa-sr-only" for="search-field-small">Buscar</label>
   <input id="affiliate" name="affiliate" type="hidden" value="usagov_es_internal">
   <input id="search-field-small" class="usa-input text usagov-search-autocomplete ui-autocomplete-input" type="search" name="query" placeholder="Busque en este sitio..." onfocus="this.placeholder" autocomplete="off">
@@ -346,38 +341,38 @@
 			<img src="/themes/custom/usagov/assets/img/usa-icons/close.svg" alt="Close">
 		</button>
 		<ul class="usa-nav__primary usa-accordion">
-			<li class="usa-nav__primary-item" id="usa-nav__temas">
-			<a href="/es/#all-topics-header" class="usa-nav__link">
+			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
+      <a href="/es/#all-topics-header" class="usa-nav__link">
 				<span>Todos los temas y servicios</span>
 			</a>
 		</li>
-			<li class="usa-nav__primary-item" id="usa-nav__acerca">
-			<a href="/es/acerca-de-estados-unidos" class="usa-nav__link">
+			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
+      <a href="/es/acerca-de-estados-unidos" class="usa-nav__link">
 				<span>Acerca de EE. UU. y su Gobierno</span>
 			</a>
 		</li>
-			<li class="usa-nav__primary-item" id="usa-nav_beneficios">
-			<a href="/es/beneficios-gobierno" class="usa-nav__link">
+			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
+      <a href="/es/beneficios-gobierno" class="usa-nav__link">
 				<span>Beneficios del Gobierno</span>
 			</a>
 		</li>
-			<li class="usa-nav__primary-item" id="usa-nav_impuestos">
-			<a href="/es/impuestos" class="usa-nav__link">
+			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
+      <a href="/es/impuestos" class="usa-nav__link">
 				<span>Impuestos</span>
 			</a>
 		</li>
-			<li class="usa-nav__primary-item" id="usa-nav_inmigracion">
-			<a href="/es/inmigracion-ciudadania-estados-unidos" class="usa-nav__link">
+			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
+      <a href="/es/inmigracion-ciudadania-estados-unidos" class="usa-nav__link">
 				<span>Inmigración y ciudadanía</span>
 			</a>
 		</li>
-			<li class="usa-nav__primary-item" id="usa-nav_viajes">
-			<a href="/es/viajes" class="usa-nav__link">
+			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
+      <a href="/es/viajes" class="usa-nav__link">
 				<span>Viajes</span>
 			</a>
 		</li>
-			<li class="usa-nav__primary-item" id>
-			<a href="/es/vivienda" class="usa-nav__link">
+			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
+      <a href="/es/vivienda" class="usa-nav__link">
 				<span>Vivienda</span>
 			</a>
 		</li>
@@ -571,16 +566,6 @@
                     
   <li class="usa-sidenav__item">
 
-          <a href="/es/articulos/guia-para-votar-2024">
-        La guía de USAGov en Español para votar en 2024
-      </a>
-    
-        
-  </li>
-
-                    
-  <li class="usa-sidenav__item">
-
           <a href="/es/articulos/mejorando-la-salud-de-los-hombres">
         Mejorando la salud de los hombres
       </a>
@@ -593,16 +578,6 @@
 
           <a href="/es/articulos/salud-mental-donde-encontrar-ayuda">
         Salud mental: cómo reconocer que hay un problema y dónde encontrar ayuda
-      </a>
-    
-        
-  </li>
-
-                    
-  <li class="usa-sidenav__item">
-
-          <a href="/es/articulos/guia-de-preparacion-para-emergencias">
-        Su guía de preparación para emergencias 2024
       </a>
     
         
@@ -671,8 +646,8 @@
             <h2 class="usa-card__heading usagov-card__heading">Aprenda sobre las Fuerzas Armadas de EE. UU.</h2>
           </div>
           <div class="usa-card__body padding-top-0 usa-prose color-off-black">
-            <p>¿Le interesa saber cómo convertirse en oficial de las Fuerzas Armadas? Averigüe cuáles son los requisitos para lograrlo.</p>
-          </div>
+                          <p>¿Le interesa saber cómo convertirse en oficial de las Fuerzas Armadas? Averigüe cuáles son los requisitos para lograrlo.</p>
+                      </div>
         </a>
       </li>
           <li class="usagov-navpage-item">
@@ -681,8 +656,8 @@
             <h2 class="usa-card__heading usagov-card__heading">Ayuda del Gobierno disponible para personas mayores&nbsp;</h2>
           </div>
           <div class="usa-card__body padding-top-0 usa-prose color-off-black">
-            <p>Con el transcurso de los años enfrentamos mayores desafíos al hacer nuestras tareas diarias y es posible que necesitemos ayuda con más frecuencia, pero a veces no sabemos cómo conseguirla. Sin importar en qué etapa se encuentre como persona mayor, el Gobierno tiene recursos disponibles que pueden ayudarle.</p>
-          </div>
+                          <p>Con el transcurso de los años enfrentamos mayores desafíos al hacer nuestras tareas diarias y es posible que necesitemos ayuda con más frecuencia, pero a veces no sabemos cómo conseguirla. Sin importar en qué etapa se encuentre como persona mayor, el Gobierno tiene recursos disponibles que pueden ayudarle.</p>
+                      </div>
         </a>
       </li>
           <li class="usagov-navpage-item">
@@ -691,8 +666,8 @@
             <h2 class="usa-card__heading usagov-card__heading">Cinco cosas que debe saber para tramitar el pasaporte de un menor</h2>
           </div>
           <div class="usa-card__body padding-top-0 usa-prose color-off-black">
-            <p>¿Necesita tramitar el pasaporte de su hijo? Averigüe los requisitos para solicitar un pasaporte para un menor de 16 años.</p>
-          </div>
+                          <p>¿Necesita tramitar el pasaporte de su hijo? Averigüe los requisitos para solicitar un pasaporte para un menor de 16 años.</p>
+                      </div>
         </a>
       </li>
           <li class="usagov-navpage-item">
@@ -701,10 +676,10 @@
             <h2 class="usa-card__heading usagov-card__heading">Como cambiar de profesión</h2>
           </div>
           <div class="usa-card__body padding-top-0 usa-prose color-off-black">
-            <p>¿Está considerando un cambio de profesión en el 2024? Puede ser que tenga intereses nuevos, necesite aumentar sus ingresos económicos o desee un trabajo en un medio con menos estrés.&nbsp;
+                          <p>¿Está considerando un cambio de profesión en el 2024? Puede ser que tenga intereses nuevos, necesite aumentar sus ingresos económicos o desee un trabajo en un medio con menos estrés.&nbsp;
 
 Si usted está listo para hacer un cambio profesional o avanzar en su camino profesional, permita que USAGov en Español le ayude a navegar este proceso.&nbsp;</p>
-          </div>
+                      </div>
         </a>
       </li>
           <li class="usagov-navpage-item">
@@ -713,8 +688,8 @@ Si usted está listo para hacer un cambio profesional o avanzar en su camino pro
             <h2 class="usa-card__heading usagov-card__heading">Consejos para tener un presupuesto en la economía actual</h2>
           </div>
           <div class="usa-card__body padding-top-0 usa-prose color-off-black">
-            <p>En tiempos de incertidumbre económica contar con un presupuesto cuidadoso es especialmente importante. En este artículo le ofrecemos consejos prácticos sobre cómo hacer un presupuesto que se adapte a las necesidades de su hogar y le permita mantener sus finanzas en orden.</p>
-          </div>
+                          <p>En tiempos de incertidumbre económica contar con un presupuesto cuidadoso es especialmente importante. En este artículo le ofrecemos consejos prácticos sobre cómo hacer un presupuesto que se adapte a las necesidades de su hogar y le permita mantener sus finanzas en orden.</p>
+                      </div>
         </a>
       </li>
           <li class="usagov-navpage-item">
@@ -723,8 +698,8 @@ Si usted está listo para hacer un cambio profesional o avanzar en su camino pro
             <h2 class="usa-card__heading usagov-card__heading">Cuatro consejos para reportar una estafa</h2>
           </div>
           <div class="usa-card__body padding-top-0 usa-prose color-off-black">
-            <p>No caiga en la trampa de estafadores que se hacen pasar por agentes del Gobierno ofreciendo ayuda o amenazando con enviar a la policía a su casa, arrestarle por no pagar sus impuestos o quitarle los beneficios del Seguro Social.</p>
-          </div>
+                          <p>No caiga en la trampa de estafadores que se hacen pasar por agentes del Gobierno ofreciendo ayuda o amenazando con enviar a la policía a su casa, arrestarle por no pagar sus impuestos o quitarle los beneficios del Seguro Social.</p>
+                      </div>
         </a>
       </li>
           <li class="usagov-navpage-item">
@@ -733,8 +708,8 @@ Si usted está listo para hacer un cambio profesional o avanzar en su camino pro
             <h2 class="usa-card__heading usagov-card__heading">Cómo obtener el pasaporte estadounidense para usted y para toda su familia</h2>
           </div>
           <div class="usa-card__body padding-top-0 usa-prose color-off-black">
-            <p>Antes de reservar unas vacaciones internacionales con su familia, es importante saber cómo y cuándo solicitar un pasaporte para cada viajero.</p>
-          </div>
+                          <p>Antes de reservar unas vacaciones internacionales con su familia, es importante saber cómo y cuándo solicitar un pasaporte para cada viajero.</p>
+                      </div>
         </a>
       </li>
           <li class="usagov-navpage-item">
@@ -743,18 +718,8 @@ Si usted está listo para hacer un cambio profesional o avanzar en su camino pro
             <h2 class="usa-card__heading usagov-card__heading">Encuentre el beneficio del Gobierno apropiado para usted y su familia</h2>
           </div>
           <div class="usa-card__body padding-top-0 usa-prose color-off-black">
-            <p>¿Necesita asistencia financiera para sus estudios o ayuda para encontrar una vivienda de renta asequible? USAGov en Español le ayuda a comprender mejor cómo funcionan estos y otros programas del Gobierno que le podrían ayudar a usted y su familia.</p>
-          </div>
-        </a>
-      </li>
-          <li class="usagov-navpage-item">
-        <a href="/es/articulos/guia-para-votar-2024" class="text-no-underline">
-          <div class="usa-card__header">
-            <h2 class="usa-card__heading usagov-card__heading">La guía de USAGov en Español para votar en 2024</h2>
-          </div>
-          <div class="usa-card__body padding-top-0 usa-prose color-off-black">
-            <p>Ya sea que usted es un votante con experiencia o si estas son sus primeras elecciones, es importante estar informado de las fechas clave y los requisitos para poder votar antes del 5 de noviembre, día de las elecciones. Revise la guía de USAGov en Español para votar en 2024 y sepa qué necesita para ejercer su derecho al voto en persona, por correo o mediante otros medios permitidos en su estado.</p>
-          </div>
+                          <p>¿Necesita asistencia financiera para sus estudios o ayuda para encontrar una vivienda de renta asequible? USAGov en Español le ayuda a comprender mejor cómo funcionan estos y otros programas del Gobierno que le podrían ayudar a usted y su familia.</p>
+                      </div>
         </a>
       </li>
           <li class="usagov-navpage-item">
@@ -763,8 +728,8 @@ Si usted está listo para hacer un cambio profesional o avanzar en su camino pro
             <h2 class="usa-card__heading usagov-card__heading">Mejorando la salud de los hombres</h2>
           </div>
           <div class="usa-card__body padding-top-0 usa-prose color-off-black">
-            <p>¿Sabía usted que la esperanza de vida de los hombres en Estados Unidos es casi seis años menor que la de las mujeres? Esto se debe en gran parte a la mayor presencia de enfermedades graves y mortales, así también como a la falta de chequeos médicos regulares y exámenes preventivos.</p>
-          </div>
+                          <p>¿Sabía usted que la esperanza de vida de los hombres en Estados Unidos es casi seis años menor que la de las mujeres? Esto se debe en gran parte a la mayor presencia de enfermedades graves y mortales, así también como a la falta de chequeos médicos regulares y exámenes preventivos.</p>
+                      </div>
         </a>
       </li>
           <li class="usagov-navpage-item">
@@ -773,18 +738,8 @@ Si usted está listo para hacer un cambio profesional o avanzar en su camino pro
             <h2 class="usa-card__heading usagov-card__heading">Salud mental: cómo reconocer que hay un problema y dónde encontrar ayuda</h2>
           </div>
           <div class="usa-card__body padding-top-0 usa-prose color-off-black">
-            <p>Esta guía de USAGov en Español puede ayudarlo a reconocer las señales de advertencia y encontrar recursos para buscar apoyo.</p>
-          </div>
-        </a>
-      </li>
-          <li class="usagov-navpage-item">
-        <a href="/es/articulos/guia-de-preparacion-para-emergencias" class="text-no-underline">
-          <div class="usa-card__header">
-            <h2 class="usa-card__heading usagov-card__heading">Su guía de preparación para emergencias 2024</h2>
-          </div>
-          <div class="usa-card__body padding-top-0 usa-prose color-off-black">
-            <p>Los desastres naturales y las emergencias pueden ocurrir sin previo aviso. En el caso de huracanes, éstos pueden ocurrir en cualquier momento del año y provocar vientos dañinos, marejadas ciclónicas e intensas inundaciones a lo largo de los Estados Unidos.</p>
-          </div>
+                          <p>Esta guía de USAGov en Español puede ayudarlo a reconocer las señales de advertencia y encontrar recursos para buscar apoyo.</p>
+                      </div>
         </a>
       </li>
       </ul>
@@ -793,7 +748,7 @@ Si usted está listo para hacer un cambio profesional o avanzar en su camino pro
 <div class="views-element-container settings-tray-editable block block-views block-views-blockwizard-step-test-block-1" id="block-views-block-wizard-step-test-block-1" data-drupal-settingstray="editable">
   
     
-      <div><div class="js-view-dom-id-c25bf9138c9b99dfd37e23cad0b960a83334762b49203eab0d87a5d897bcddc9">
+      <div><div class="js-view-dom-id-3970a9b54146faaf39731cdd20b0c8f74e1b221d76fcc57b072b8f1b00231b23">
   
   
   
@@ -1066,7 +1021,7 @@ Si usted está listo para hacer un cambio profesional o avanzar en su camino pro
 
 <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"es\/","currentPath":"node\/532","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"es"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"top_nav_menu":[{"\/es#all-topics-header":"usa-nav__temas"},{"\/es\/acerca-de-estados-unidos":"usa-nav__acerca"},{"\/es\/dinero":"usa-nav__dinero"},{"\/es\/leyes-y-asuntos-legales":"usa-nav__leyes"},{"\/es\/estafas-y-fraudes":"usa-nav__estafas"},{"\/es\/beneficios-gobierno":"usa-nav_beneficios"},{"\/es\/impuestos":"usa-nav_impuestos"},{"\/es\/inmigracion-ciudadania-estados-unidos":"usa-nav_inmigracion"},{"\/es\/viajes":"usa-nav_viajes"},{"\/es\/vivienda":null},{"\/es\/votaciones-y-elecciones":null}],"user":{"uid":0,"permissionsHash":"7305919e0d31d85b27a57f0f58e02d77182231e92328f41207eaf2e6537ef320"}}</script>
 <script src="/sites/default/files/js/js_3ZpwrOYPuJlAJ0zjL9bqIH6uVK1ZqKh0Zb6IOed8lVU.js?scope=footer&amp;delta=0&amp;language=es&amp;theme=usagov&amp;include=eJx1i0EOwjAMBD9Emz9wQ-IPlpsYE0jsynGL2tcTUThy3JnZqEYhap1VSLyNS0PWdRgaocX7hHY6SOCiE5ah-Vay8I8W3LerYjrzpSLTF4PrDIJrZvSsApVkCf8VPFo_vlKD-KSUXQ2yOLF9knAojFEt9T3eTLuV9AYiJkrD"></script>
-<script src="/modules/contrib/uswds_ckeditor_integration/js/aftermarket/uswds_accordion.js?su2f1o"></script>
+<script src="/modules/contrib/uswds_ckeditor_integration/js/aftermarket/uswds_accordion.js?svv8mr"></script>
 
   
 
