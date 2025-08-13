@@ -2383,6 +2383,9 @@
   <loc>https://www.usa.gov/content</loc>
  </url>
  <url>
+  <loc>https://www.usa.gov/citizen-science</loc>
+ </url>
+ <url>
   <loc>https://www.usa.gov/benefit-finder/death</loc>
  </url>
  <url>
@@ -2854,7 +2857,7 @@
   <loc>https://www.usa.gov/agencies/defense-contract-management-agency</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/agencies/center-for-food-safety-and-applied-nutrition</loc>
+  <loc>https://www.usa.gov/agencies/human-foods-program</loc>
  </url>
  <url>
   <loc>https://www.usa.gov/agencies/employee-benefits-security-administration</loc>
@@ -3202,7 +3205,7 @@
   <loc>https://www.usa.gov/agencies/bureau-of-consular-affairs</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/es/agencias/centro-para-la-seguridad-alimentaria-y-la-nutricion-aplicada</loc>
+  <loc>https://www.usa.gov/es/agencias/programa-de-alimentos-para-consumo-humano</loc>
  </url>
  <url>
   <loc>https://www.usa.gov/agencies/office-of-the-pardon-attorney</loc>
