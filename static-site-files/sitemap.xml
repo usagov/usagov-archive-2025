@@ -2293,12 +2293,6 @@
   <loc>https://www.usa.gov/es/cuando-votar</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/features/improving-mens-health</loc>
- </url>
- <url>
-  <loc>https://www.usa.gov/es/articulos/mejorando-la-salud-de-los-hombres</loc>
- </url>
- <url>
   <loc>https://www.usa.gov/es/alertas-viaje-programa-registro-viajeros-inteligentes-step</loc>
  </url>
  <url>
@@ -2347,12 +2341,6 @@
   <loc>https://www.usa.gov/benefit-finder</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/es/articulos/consejos-para-tener-un-presupuesto</loc>
- </url>
- <url>
-  <loc>https://www.usa.gov/features/budgeting-to-meet-financial-goals</loc>
- </url>
- <url>
   <loc>https://www.usa.gov/es/buscador-beneficios</loc>
  </url>
  <url>
@@ -2383,10 +2371,46 @@
   <loc>https://www.usa.gov/citizen-science</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/2026-winter-storm</loc>
+  <loc>https://www.usa.gov/innovation</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/es/tormenta-invernal-2026</loc>
+  <loc>https://www.usa.gov/challenges</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/find-active-challenge</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/other-government-challenges</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/challenges/nih-new-approach-methodologies-nams</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/challenges/presidential-1776-award-scholarship</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/challenge-managers-information</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/challenges/acl-caregiver-ai-prize</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/challenges/cto-challenge</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/challenges/bio-attribution</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/challenges/halt-the-hitchhiker-invasive-species</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/challenge/wildfire-safety-equipment</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/challenge/autonomous-vehicle-wildfire-logistics</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/challenge-how-to-participate</loc>
  </url>
  <url>
   <loc>https://www.usa.gov/benefit-finder/death</loc>
@@ -2405,12 +2429,6 @@
  </url>
  <url>
   <loc>https://www.usa.gov/es/buscador-beneficios/discapacidad</loc>
- </url>
- <url>
-  <loc>https://www.usa.gov/benefit-finder/all-benefits</loc>
- </url>
- <url>
-  <loc>https://www.usa.gov/es/buscador-beneficios/todos-beneficios</loc>
  </url>
  <url>
   <loc>https://www.usa.gov/agencies/national-library-of-medicine</loc>
@@ -2806,9 +2824,6 @@
   <loc>https://www.usa.gov/agencies/railroad-retirement-board</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/agencies/interagency-alternative-dispute-resolution-working-group</loc>
- </url>
- <url>
   <loc>https://www.usa.gov/es/agencias/camara-de-representantes-de-estados-unidos</loc>
  </url>
  <url>
@@ -3052,7 +3067,7 @@
   <loc>https://www.usa.gov/agencies/office-of-multifamily-housing-programs</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/es/agencias/oficina-de-eficiencia-energetica-y-energia-renovable</loc>
+  <loc>https://www.usa.gov/es/agencias/oficina-de-minerales-criticos-e-innovacion-energetica</loc>
  </url>
  <url>
   <loc>https://www.usa.gov/agencies/u-s-fleet-forces-command</loc>
@@ -3523,7 +3538,7 @@
   <loc>https://www.usa.gov/agencies/national-institute-of-occupational-safety-and-health</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/agencies/office-of-energy-efficiency-and-renewable-energy</loc>
+  <loc>https://www.usa.gov/agencies/office-of-critical-minerals-and-energy-innovation</loc>
  </url>
  <url>
   <loc>https://www.usa.gov/agencies/joint-board-for-the-enrollment-of-actuaries</loc>
