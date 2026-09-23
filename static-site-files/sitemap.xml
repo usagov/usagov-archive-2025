@@ -2275,12 +2275,6 @@
   <loc>https://www.usa.gov/child-care-head-start</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/features/passports-for-the-whole-family</loc>
- </url>
- <url>
-  <loc>https://www.usa.gov/es/articulos/pasaportes-para-toda-la-familia</loc>
- </url>
- <url>
   <loc>https://www.usa.gov/es/guarderia-head-start</loc>
  </url>
  <url>
@@ -2303,12 +2297,6 @@
  </url>
  <url>
   <loc>https://www.usa.gov/pra-statement-csat</loc>
- </url>
- <url>
-  <loc>https://www.usa.gov/features/how-to-change-careers</loc>
- </url>
- <url>
-  <loc>https://www.usa.gov/es/articulos/como-cambiar-de-profesion</loc>
  </url>
  <url>
   <loc>https://www.usa.gov/es/declaracion-ley-reduccion-del-papeleo-utilidad</loc>
@@ -2386,9 +2374,6 @@
   <loc>https://www.usa.gov/challenges/nih-new-approach-methodologies-nams</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/challenges/presidential-1776-award-scholarship</loc>
- </url>
- <url>
   <loc>https://www.usa.gov/challenge-managers-information</loc>
  </url>
  <url>
@@ -2398,37 +2383,43 @@
   <loc>https://www.usa.gov/challenges/cto-challenge</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/challenges/bio-attribution</loc>
- </url>
- <url>
   <loc>https://www.usa.gov/challenges/halt-the-hitchhiker-invasive-species</loc>
- </url>
- <url>
-  <loc>https://www.usa.gov/challenge/wildfire-safety-equipment</loc>
- </url>
- <url>
-  <loc>https://www.usa.gov/challenge/autonomous-vehicle-wildfire-logistics</loc>
  </url>
  <url>
   <loc>https://www.usa.gov/challenge-how-to-participate</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/benefit-finder/death</loc>
+  <loc>https://www.usa.gov/challenges/cultivating-connected-communities</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/es/buscador-beneficios/muerte</loc>
+  <loc>https://www.usa.gov/challenges/xtech-kinetic-reach</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/benefit-finder/retirement</loc>
+  <loc>https://www.usa.gov/challenges/xtech-search-10</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/es/buscador-beneficios/jubilacion</loc>
+  <loc>https://www.usa.gov/challenges/careers-in-your-community-challenge</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/benefit-finder/disability</loc>
+  <loc>https://www.usa.gov/challenges/1cdp-innovation-challenge</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/es/buscador-beneficios/discapacidad</loc>
+  <loc>https://www.usa.gov/challenges/gateways-blue-skies</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/challenges/nasa-techrise-student-challenge</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/challenges/ready-set-id-biothreat</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/challenges/documentation-decision-support</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/challenges/darpa-surgical-competition</loc>
+ </url>
+ <url>
+  <loc>https://www.usa.gov/challenges/nasa-human-lander-challenge</loc>
  </url>
  <url>
   <loc>https://www.usa.gov/agencies/national-library-of-medicine</loc>
@@ -3772,7 +3763,7 @@
   <loc>https://www.usa.gov/agencies/bureau-of-safety-and-environmental-enforcement</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/es/agencias/servicio-de-alimentos-y-nutricion</loc>
+  <loc>https://www.usa.gov/es/agencias/administracion-de-alimentos-y-nutricion</loc>
  </url>
  <url>
   <loc>https://www.usa.gov/agencies/oak-ridge-national-laboratory</loc>
@@ -3907,7 +3898,7 @@
   <loc>https://www.usa.gov/agencies/library-of-congress</loc>
  </url>
  <url>
-  <loc>https://www.usa.gov/agencies/food-and-nutrition-service</loc>
+  <loc>https://www.usa.gov/agencies/food-and-nutrition-administration</loc>
  </url>
  <url>
   <loc>https://www.usa.gov/agencies/middle-east-broadcasting-networks</loc>
